@@ -3,8 +3,6 @@ const data = [
     [1,0,0,0,1,0,0]
 ]
 
-const value = []
-
 for (let i = 0; i < data[0].length; i++){
     let isEnd = true
     for (let j = 0; j < data.length ; j++) {
@@ -16,5 +14,3 @@ for (let i = 0; i < data[0].length; i++){
     }
     if (isEnd) break
 }
-
-// console.log(value)
